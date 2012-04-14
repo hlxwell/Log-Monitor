@@ -1,0 +1,10 @@
+[{release,"log_monitor","1","5.9",
+          [{kernel,"2.15",
+                   "/Users/michaelhe/projects/erlang/log_monitor/rel/log_monitor/lib/kernel-2.15"},
+           {stdlib,"1.18",
+                   "/Users/michaelhe/projects/erlang/log_monitor/rel/log_monitor/lib/stdlib-1.18"},
+           {log_monitor,"0.0.1",
+                        "/Users/michaelhe/projects/erlang/log_monitor/rel/log_monitor/lib/log_monitor-0.0.1"},
+           {sasl,"2.2",
+                 "/Users/michaelhe/projects/erlang/log_monitor/rel/log_monitor/lib/sasl-2.2"}],
+          permanent}].

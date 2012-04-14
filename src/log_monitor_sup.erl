@@ -1,4 +1,3 @@
-
 -module(log_monitor_sup).
 
 -behaviour(supervisor).
@@ -24,5 +23,9 @@ start_link() ->
 %% ===================================================================
 
 init([]) ->
-    {ok, { {one_for_one, 5, 10}, []} }.
+    %%%%% start log monitor %%%%%
+    Children = [
+        ?CHILD(log_monitor_server, worker)
+    ],
+    {ok, { {one_for_one, 5, 10}, Children} }.
 

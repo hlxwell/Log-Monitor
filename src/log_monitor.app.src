@@ -1,12 +1,11 @@
-{application, log_monitor,
- [
-  {description, ""},
-  {vsn, "1"},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {mod, { log_monitor_app, []}},
-  {env, []}
- ]}.
+{
+  application, log_monitor,
+  [
+    {description, "Monitoring all system log."},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {mod, { log_monitor, []} },
+    {env, []}
+  ]
+}.

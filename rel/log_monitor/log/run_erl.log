@@ -1,0 +1,8 @@
+run_erl [25863] Sun Apr 15 01:25:56 2012
+Args before exec of shell:
+run_erl [25863] Sun Apr 15 01:25:56 2012
+argv[0] = sh
+run_erl [25863] Sun Apr 15 01:25:56 2012
+argv[1] = -c
+run_erl [25863] Sun Apr 15 01:25:56 2012
+argv[2] = exec /Users/michaelhe/projects/erlang/log_monitor/rel/log_monitor/bin/log_monitor console '' 
