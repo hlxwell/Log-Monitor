@@ -1,0 +1,12 @@
+{application, log_monitor,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { log_monitor_app, []}},
+  {env, []}
+ ]}.
